@@ -1,0 +1,656 @@
+﻿{
+  "status": "ok",
+  "totalResults": 4750,
+  "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "Sputniknews.com"
+      },
+      "author": null,
+      "title": "Head of French LREM Party Says Former Health Minister Determined to Become Paris Mayor",
+      "description": "MOSCOW (Sputnik) – Stanislas Guerini said he was convinced that former health minister and current LREM candidate Agnes Buzyn in the municipal elections in Paris, is determined to win the second round of the elections set for 28 June, though her position has …",
+      "url": "https://sputniknews.com/europe/202005251079414192-head-of-french-lrem-party-says-former-health-minister-determined-to-become-paris-mayor/",
+      "urlToImage": "https://cdn1.img.sputniknews.com/images/103183/14/1031831464.jpg",
+      "publishedAt": "2020-05-25T15:38:02Z",
+      "content": "MOSCOW (Sputnik) Stanislas Guerini said he was convinced that former health minister and current LREM candidate Agnes Buzyn in the municipal elections in Paris, is determined to win the second round … [+1731 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Israelnationalnews.com"
+      },
+      "author": null,
+      "title": "Kremlin spokesperson released from hospital",
+      "description": null,
+      "url": "https://www.israelnationalnews.com/News/Flash.aspx/501505",
+      "urlToImage": "http://k6s3v6r4.ssl.hwcdn.net/pictures/799/799624.jpg",
+      "publishedAt": "2020-05-25T15:37:19Z",
+      "content": "Russian news sources reported that Kremlin spokesperson Dmirty Piskov has been released from the hospital.\r\nPiskov had been infected with COVID-19."
+    },
+    {
+      "source": {
+        "id": "the-irish-times",
+        "name": "The Irish Times"
+      },
+      "author": "Bill Corcoran",
+      "title": "Coronavirus in South Africa: President Ramaphosa warns outbreak will get worse",
+      "description": "Lockdown measures to be further eased from start of June despite surge in cases",
+      "url": "https://www.irishtimes.com/news/world/africa/coronavirus-in-south-africa-president-ramaphosa-warns-outbreak-will-get-worse-1.4262129",
+      "urlToImage": "https://www.irishtimes.com/image-creator/?id=1.4262128&origw=1440",
+      "publishedAt": "2020-05-25T15:36:48Z",
+      "content": "South Africas strict lockdown measures will be further eased from the start of June, but President Cyril Ramaphosa has warned that the countrys coronavirus outbreak is expected to get much worse.\r\nIn… [+2691 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Allafrica.com"
+      },
+      "author": null,
+      "title": "Minister Thoko Didiza Welcomes Donations of Food Parcels, Sanitizers and Masks By Commodity Groups and Private Sector During Coronavirus COVID-19 Pandemic",
+      "description": "Press Release - Minister Didiza welcomes donations of food parcels, sanitizers and masks by commodity groups and the private sector",
+      "url": "https://allafrica.com/stories/202005250754.html",
+      "urlToImage": "https://cdn08.allafrica.com/static/images/structure/aa-logo-rgba-no-text-square.png",
+      "publishedAt": "2020-05-25T15:36:16Z",
+      "content": "Minister Didiza welcomes donations of food parcels, sanitizers and masks by commodity groups and the private sector\r\nThe Minister of Agriculture, Land Reform and Rural Development, Ms Thoko Didiza we… [+992 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Iol.co.za"
+      },
+      "author": "AP",
+      "title": "Germany divided over plans to nix rules despite outbreaks",
+      "description": "The country has seen a steady decline in the overall number of Covid-19 cases thanks to measures imposed 10 weeks ago to limit personal contacts.",
+      "url": "https://www.iol.co.za/news/world/germany-divided-over-plans-to-nix-rules-despite-outbreaks-48491580",
+      "urlToImage": "https://image.iol.co.za/image/1/process/5922x366?source=https://cdn.africannewsagency.com/public/ana/media/media/2020/05/25/media-reference%3A0006dc3e1fce4fd6abc35c581c598426.jpg&operation=CROP&offset=0x227&resize=5895x3316",
+      "publishedAt": "2020-05-25T15:36:00Z",
+      "content": "By AP4m ago\r\nBERLIN - Germany's federal government and state governors squared up Monday for a battle over plans to end pandemic-related restrictions despite fresh clusters of cases across the countr… [+3935 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Seattlepi.com"
+      },
+      "author": "By HEATHER HOLLINGSWORTH, Associated Press",
+      "title": "US communities face tough choices on opening public pools",
+      "description": "MISSION, Kan. (AP) - Public pools will look very different this summer if they open at all with the coronavirus threat still looming, as teenage lifeguards will be tasked with maintaining social distancing and spotting COVID-19 symptoms in addition to their p…",
+      "url": "https://www.seattlepi.com/sports/article/US-communities-face-tough-choices-on-opening-15293145.php",
+      "urlToImage": "https://s.hdnux.com/photos/01/12/15/42/19454110/3/rawImage.jpg",
+      "publishedAt": "2020-05-25T15:35:41Z",
+      "content": "MISSION, Kan. (AP) — Public pools will look very different this summer if they open at all with the coronavirus threat still looming, as teenage lifeguards will be tasked with maintaining social dist… [+6670 chars]"
+    },
+    {
+      "source": {
+        "id": "news24",
+        "name": "News24"
+      },
+      "author": null,
+      "title": "News24.com | Only 10 people paid R350 unemployment Sassa grant during 'trial run'",
+      "description": "The SA Social Security Agency has apologised for delays in making payments to beneficiaries of a R350 social relief grant meant for millions of unemployed during the Covid-19 lockdown.",
+      "url": "https://www.news24.com/SouthAfrica/News/only-10-people-paid-r350-unemployment-sassa-grant-during-trial-run-20200525",
+      "urlToImage": "http://cdn.24.co.za/files/Cms/General/d/10198/74593e2b861a4437988f7f741e6bdf60.jpg",
+      "publishedAt": "2020-05-25T15:35:07Z",
+      "content": "The SA Social Security Agency (Sassa) has apologised for delays in making payments to beneficiaries of a R350 social relief grant meant for millions of unemployed during the Covid-19 lockdown.\r\nThe a… [+3219 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Nationalpost.com"
+      },
+      "author": "Brian Platt",
+      "title": "Tory leadership candidates slam their party for taking Trudeau’s COVID-19 wage subsidy",
+      "description": "'We should not be bailed out by taxpayer money with millions unemployed and small businesses struggling to stay afloat,' Peter MacKay said",
+      "url": "https://nationalpost.com/news/politics/tory-leadership-candidates-slam-their-party-for-taking-trudeaus-covid-19-wage-subsidy",
+      "urlToImage": "https://nationalpostcom.files.wordpress.com/2020/05/pjt-cerb-4-e1590420549280.jpg",
+      "publishedAt": "2020-05-25T15:35:02Z",
+      "content": "OTTAWA — Conservative leadership candidates, including frontrunners Peter MacKay and Erin O’Toole, are slamming their own party for taking the federal COVID-19 wage subsidy that sees public funds cov… [+3750 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Forbes.com"
+      },
+      "author": "Alice Broster, Contributor, Alice Broster, Contributorhttps://www.forbes.com/sites/alicebroster/",
+      "title": "FDA Approves First Non-Hormonal Contraceptive Gel",
+      "description": "The FDA approved the first non-hormonal prescription birth control gel. It works by maintaining your vaginal pH within the normal range which is acidic and inhospitable to sperm.",
+      "url": "https://www.forbes.com/sites/alicebroster/2020/05/25/fda-approves-first-non-hormonal-contraceptive-gel/",
+      "urlToImage": "https://thumbor.forbes.com/thumbor/fit-in/1200x0/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F1055504898%2F0x0.jpg",
+      "publishedAt": "2020-05-25T15:34:49Z",
+      "content": "Contraception techniques against a pink background.\r\nGetty\r\nBirth control either stops an egg from being released into the womb, sperm from reaching the egg or a fertilized egg from implanting in the… [+3146 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Allafrica.com"
+      },
+      "author": null,
+      "title": "Lottery Throws Millions More At Dodgy Projects",
+      "description": "[GroundUp] The National Lotteries Commission has refused to disclose its beneficiaries. But we found them",
+      "url": "https://allafrica.com/stories/202005250753.html",
+      "urlToImage": "https://cdn08.allafrica.com/static/images/structure/aa-logo-rgba-no-text-square.png",
+      "publishedAt": "2020-05-25T15:34:39Z",
+      "content": "The National Lotteries Commission has refused to disclose its beneficiaries. But we found them\r\nMaila Village elderly care home in Limpopo photographed late last year. Nothing much has happened since… [+18361 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Allafrica.com"
+      },
+      "author": null,
+      "title": "Lockdown Level 3 - 'Unfolding Calamity' - Saftu Threatens Strike If Public Servants Are Forced Back to Work",
+      "description": "[News24Wire] Two of South Africa's trade union federations have raised concerns over government's announcement that public servants must go back to work when the country gears down to Level 3 of the lockdown from next week, with the South African Federation o…",
+      "url": "https://allafrica.com/stories/202005250752.html",
+      "urlToImage": "https://cdn08.allafrica.com/static/images/structure/aa-logo-rgba-no-text-square.png",
+      "publishedAt": "2020-05-25T15:34:21Z",
+      "content": "Two of South Africa's trade union federations have raised concerns over government's announcement that public servants must go back to work when the country gears down to Level 3 of the lockdown from… [+4566 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Nbcsports.com"
+      },
+      "author": "Joe Prince-Wright",
+      "title": "VIDEO: Top 10 home kits in Premier League history",
+      "description": "Our top 10 list continues this week as we rank the top Premier League home kits in history.",
+      "url": "https://soccer.nbcsports.com/2020/05/25/video-top-10-home-kits-in-premier-league-history/",
+      "urlToImage": "https://soccer.nbcsports.com/wp-content/uploads/sites/14/2020/05/GettyImages-1219346568.jpg",
+      "publishedAt": "2020-05-25T15:34:16Z",
+      "content": "The UK government has given the Premier League and the Championship the green light to resume contact training after publishing stage two of its return to training guidance.\r\nThis is a big boost for … [+4964 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Dailymail.co.uk"
+      },
+      "author": "By Jack Maidment, Deputy Political Editor For Mailonline",
+      "title": "Dominic Cummings delivers statement in Downing Street Rose Garden",
+      "description": "Dominic Cummings this afternoon faced an unprecedented grilling from reporters in the Downing Street Rose Garden over claims he broke coronavirus lockdown rules.",
+      "url": "https://www.dailymail.co.uk/news/article-8355011/Dominic-Cummings-delivers-statement-Downing-Street-Rose-Garden.html",
+      "urlToImage": "https://i.dailymail.co.uk/1s/2020/05/25/16/28802724-0-image-a-12_1590420834783.jpg",
+      "publishedAt": "2020-05-25T15:34:07Z",
+      "content": "Dominic Cummings this afternoon faced an unprecedented grilling from reporters in the Downing Street Rose Garden over claims he broke coronavirus lockdown rules by travelling to Durham as Boris Johns… [+46962 chars]"
+    },
+    {
+      "source": {
+        "id": "football-italia",
+        "name": "Football Italia"
+      },
+      "author": "Football Italia staff",
+      "title": "Torino player recovers from COVID-19",
+      "description": "Torino have confirmed that their player who tested positive for coronavirus has made a full recovery.  \tThe unnamed player was diagnosed with no symptoms on May 6Â and went on to spend two weeks in self-isolation.",
+      "url": "https://www.football-italia.net/153654/torino-player-recovers-covid-19",
+      "urlToImage": null,
+      "publishedAt": "2020-05-25T15:33:38Z",
+      "content": "Torino have confirmed that their player who tested positive for coronavirus has made a full recovery.\r\nThe unnamed player was diagnosed with no symptoms on May 6 and went on to spend two weeks in sel… [+495 chars]"
+    },
+    {
+      "source": {
+        "id": "financial-post",
+        "name": "Financial Post"
+      },
+      "author": "The Canadian Press",
+      "title": "Canadian Press NewsAlert: Trudeau says he’ll seek 10 days of paid sick leave for all workers",
+      "description": "OTTAWA — Prime Minister Justin Trudeau says he’ll push the provinces to give workers 10 days of paid sick leave a year as the country deals with the COVID-19 pandemic. That appears to meet a key demand from NDP Leader Jagmeet Singh, in exchange for the New De…",
+      "url": "https://business.financialpost.com/news/economy/canadian-press-newsalert-trudeau-says-hell-seek-10-days-of-paid-sick-leave-for-all-workers",
+      "urlToImage": "https://secure.gravatar.com/blavatar/b4ece3189893389a03f063830eacd95c?s=200&ts=1590421042",
+      "publishedAt": "2020-05-25T15:33:29Z",
+      "content": "OTTAWA — Prime Minister Justin Trudeau says he’ll push the provinces to give workers 10 days of paid sick leave a year as the country deals with the COVID-19 pandemic.\r\nThat appears to meet a key dem… [+305 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Ohscanada.com"
+      },
+      "author": "The Canadian Press",
+      "title": "Two workers of Toronto Loblaws test positive for COVID-19, now isolating at home",
+      "description": "Physical-distancing rules now being enforced inside store\nThe post Two workers of Toronto Loblaws test positive for COVID-19, now isolating at home appeared first on OHS Canada Magazine.",
+      "url": "https://www.ohscanada.com/two-workers-toronto-loblaws-test-positive-covid-19-now-isolating-home/",
+      "urlToImage": "https://www.ohscanada.com/wp-content/uploads/2020/05/Loblaws-e1590420698410.png",
+      "publishedAt": "2020-05-25T15:33:05Z",
+      "content": "The Loblaws location in question is located at the old Maple Leaf Gardens facility in Toronto. (Instant Street View)\r\nTORONTO Two workers at a Loblaws grocery store at the old Maple Leaf Gardens in T… [+546 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Thestar.com.my"
+      },
+      "author": "The Star Online",
+      "title": "Spain reports 50 coronavirus deaths, total at 26,834",
+      "description": "MADRID (Reuters) - Spain's Health Ministry reported 50 new deaths from the coronavirus on Monday, marking nine straight days that the daily death toll has been below 100.",
+      "url": "https://www.thestar.com.my/news/world/2020/05/25/spain-reports-50-coronavirus-deaths-total-at-26834",
+      "urlToImage": "https://apicms.thestar.com.my/uploads/images/2020/05/25/695248.JPG",
+      "publishedAt": "2020-05-25T15:33:00Z",
+      "content": "Waiters wearing protective face masks carry food for clients at an outdoor seating section of a restaurant at Ramblas, as some Spanish provinces are allowed to ease lockdown restrictions during phase… [+644 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Commondreams.org"
+      },
+      "author": null,
+      "title": "Let's Honor Fallen Workers on Memorial Day, Too",
+      "description": "Covid-19 has shown us how many different kinds of workers are needed to keep us safe, housed, and fed. Many of them face danger every day, just as soldiers do... Memorial Day, as many people know, began as a way to commemorate the 600-800,000 combatants who d…",
+      "url": "https://www.commondreams.org/views/2020/05/25/lets-honor-fallen-workers-memorial-day-too",
+      "urlToImage": "https://www.commondreams.org/sites/default/files/views-article/thumbs/nnu_wh_0.jpg",
+      "publishedAt": "2020-05-25T15:32:59Z",
+      "content": "Memorial Day, as many people know, began as a way to commemorate the 600-800,000 combatants who died fighting on both sides of the Civil War. The magnitude of that loss is hard to picture. As a perce… [+4725 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Allafrica.com"
+      },
+      "author": null,
+      "title": "COVID-19 - Gauteng Has 2 773 Confirmed Cases and 29 Deaths",
+      "description": "[News24Wire] The total number of confirmed Covid-19 cases in Gauteng sat at 2 773 as of Monday, with 1 899 recoveries and 29 deaths, the Gauteng Department of Health said.",
+      "url": "https://allafrica.com/stories/202005250751.html",
+      "urlToImage": "https://cdn08.allafrica.com/static/images/structure/aa-logo-rgba-no-text-square.png",
+      "publishedAt": "2020-05-25T15:32:57Z",
+      "content": "The total number of confirmed Covid-19 cases in Gauteng sat at 2 773 as of Monday, with 1 899 recoveries and 29 deaths, the Gauteng Department of Health said.\r\nJohannesburg still had the highest numb… [+2039 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Allafrica.com"
+      },
+      "author": null,
+      "title": "Strandfontein Homeless Site Closes",
+      "description": "[GroundUp] City says Culemborg site will accommodate 96 of the estimated 180 homeless people now living under the overpass",
+      "url": "https://allafrica.com/stories/202005250750.html",
+      "urlToImage": "https://cdn08.allafrica.com/static/images/structure/aa-logo-rgba-no-text-square.png",
+      "publishedAt": "2020-05-25T15:32:40Z",
+      "content": "City says Culemborg site will accommodate 96 of the estimated 180 homeless people now living under the overpass\r\nThe last remaining occupants at the City of Cape Town's temporary shelter site in Stra… [+3202 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Allafrica.com"
+      },
+      "author": null,
+      "title": "'Anti-Christian Attitude Developing in SA' - ACDP Leader Warns of Possible Illegal Church Gatherings",
+      "description": "[News24Wire] It seems that President Cyril Ramaphosa's failure to accede to requests from church leaders to allow small gatherings is the last straw for some, who say that, if forced, congregants will ignore the government and gather for praise and worship an…",
+      "url": "https://allafrica.com/stories/202005250749.html",
+      "urlToImage": "https://cdn08.allafrica.com/static/images/structure/aa-logo-rgba-no-text-square.png",
+      "publishedAt": "2020-05-25T15:32:26Z",
+      "content": "It seems that President Cyril Ramaphosa's failure to accede to requests from church leaders to allow small gatherings is the last straw for some, who say that, if forced, congregants will ignore the … [+5093 chars]"
+    },
+    {
+      "source": {
+        "id": "nbc-news",
+        "name": "NBC News"
+      },
+      "author": "Alexander Smith",
+      "title": "Boris Johnson puts coronavirus strategy on the line to defend embattled adviser",
+      "description": "Dominic Cummings, top adviser to British Prime Minister Boris Johnson, is under increasing pressure after he appeared to break coronavirus lockdown rules.",
+      "url": "https://www.nbcnews.com/news/world/dominic-cummings-boris-johnson-puts-coronavirus-strategy-line-defend-adviser-n1214306",
+      "urlToImage": "https://media3.s-nbcnews.com/j/newscms/2020_22/3363431/200525-dominic-cummings-cs-942a_da1c9c75b44839b15d8478a429038e16.nbcnews-fp-1200-630.jpg",
+      "publishedAt": "2020-05-25T15:32:22Z",
+      "content": "LONDON British Prime Minister Boris Johnson has risked undermining his entire coronavirus strategy in an apparent attempt to save the career of one man.\r\nDominic Cummings, the prime minister's top ad… [+5162 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Bdnews24.com"
+      },
+      "author": null,
+      "title": "Zafrullah Chowdhury says Gonoshasthaya kit shows he is COVID-19 positive",
+      "description": "Zafrullah Chowdhury, the founder and trustee of the Gonoshasthaya Kendra, has said he has contracted the novel coronavirus.",
+      "url": "https://bdnews24.com/bangladesh/2020/05/25/zafrullah-chowdhury-says-gonoshasthaya-kit-shows-he-is-covid-19-positive",
+      "urlToImage": "https://d30fl32nd2baj9.cloudfront.net/media/2018/10/24/zafrullah-13102018-02.jpg/ALTERNATES/w640/Zafrullah-13102018-02.jpg",
+      "publishedAt": "2020-05-25T15:32:15Z",
+      "content": "A test by using a COVID-19 testing kit developed by his organisation confirmed his infection, Zafrullah told bdnews24.com over phone on Monday night.\r\nHe said he underwent the test because he has bee… [+868 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Sputniknews.com"
+      },
+      "author": null,
+      "title": "UK Prime Minister’s Adviser to Make Rare Statement Amid Lockdown Trip Scandal – Reports",
+      "description": "MOSCOW (Sputnik) - Dominic Cummings, senior adviser to UK Prime Minister Boris Johnson, is set to make a rare statement and field journalists’ questions on Monday amid a scandal that came to light this past weekend after media reported that the adviser had fl…",
+      "url": "https://sputniknews.com/europe/202005251079414175-uk-prime-ministers-adviser-to-make-rare-statement-amid-lockdown-trip-scandal--reports/",
+      "urlToImage": "https://cdn2.img.sputniknews.com/images/107941/41/1079414145.jpg",
+      "publishedAt": "2020-05-25T15:32:15Z",
+      "content": "MOSCOW (Sputnik) - Dominic Cummings, senior adviser to UK Prime Minister Boris Johnson, is set to make a rare statement and field journalists questions on Monday amid a scandal that came to light thi… [+1637 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Indianexpress.com"
+      },
+      "author": "Express Web Desk",
+      "title": "India lockdown diary, Day 62: Akhilesh asks for free chyawanprash supply; Kolkata artisans hope for turnaround; and more",
+      "description": "Here’s a curated list of some interesting stories from across the country on Day 62 of lockdown.",
+      "url": "https://indianexpress.com/article/india/india-lockdown-diary-day-62-may-25-update-6426858/",
+      "urlToImage": "https://images.indianexpress.com/2020/05/coronavirus1-9.jpg?w=759",
+      "publishedAt": "2020-05-25T15:31:59Z",
+      "content": "Hundreds of people reached airports across the country to take morning flights.The total number of coronavirusinfections in India rose to 1,38,845 on Monday. Of these 77,103 are active, while 57,720 … [+5617 chars]"
+    },
+    {
+      "source": {
+        "id": "the-hill",
+        "name": "The Hill"
+      },
+      "author": "Alexander Bolton",
+      "title": "Stakes high for Collins in coronavirus relief standoff",
+      "description": "Sen. Susan Collins (R), who faces the toughest re-election campaign of her Senate career, is battling her own party over coronavirus relief funding for local and state governments hit hard by the pandemic.The Maine...",
+      "url": "https://thehill.com/homenews/senate/499314-stakes-high-for-collins-in-coronavirus-relief-standoff",
+      "urlToImage": "https://thehill.com/sites/default/files/collinssusan_mcconnellmitch_052220gn_split.jpg",
+      "publishedAt": "2020-05-25T15:31:34Z",
+      "content": "Sen. Susan CollinsSusan Margaret CollinsGOP faces internal conflicts on fifth coronavirus billThe other dangerous virus infecting our countryThe Hill's Coronavirus Report: Surgeon General stresses ne… [+8450 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Rawstory.com"
+      },
+      "author": "Alex Henderson, AlterNet",
+      "title": "Pompeo is helping Trump destroy US credibility around the world — according to a former assistant secretary of state",
+      "description": "President Donald Trump has made it abundantly clear that he prefers loyalists in his administration. And Trump has no greater loyalist than Secretary of State Mike Pompeo, whose unquestioning devotion to the president is the focus of a scathing op-ed by Micha…",
+      "url": "https://www.rawstory.com/2020/05/pompeo-is-helping-trump-destroy-us-credibility-around-the-world-according-to-a-former-assistant-secretary-of-state/",
+      "urlToImage": "https://www.rawstory.com/wp-content/uploads/2020/01/Mike-Pompeo-1.jpg",
+      "publishedAt": "2020-05-25T15:31:22Z",
+      "content": "President Donald Trump has made it abundantly clear that he prefers loyalists in his administration. And Trump has no greater loyalist than Secretary of State Mike Pompeo, whose unquestioning devotio… [+4506 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Ottawacitizen.com"
+      },
+      "author": "Blair Crawford",
+      "title": "COVID-19: On Monday Ontario confirms 404 new cases, 29 deaths",
+      "description": "Ontario The province reported 29 COVID-19 deaths on Monday and an additional 404 confirmed cases of the disease. On Sunday 460 new cases were reported. It is the sixth consecutive day the province has reported more than 400 new cases. A total of 2,102 people …",
+      "url": "https://ottawacitizen.com/news/local-news/covid-19-on-monday-ontario-confirms-404-new-cases-29-deaths",
+      "urlToImage": "https://postmediaottawacitizen2.files.wordpress.com/2020/05/doug-ford.jpg",
+      "publishedAt": "2020-05-25T15:31:20Z",
+      "content": "Ottawa Public Health will publish its latest COVID-19 statistics Monday afternoon.\r\nThe virus continues to have a devastating effect on long-term care homes, with a total of 54 deaths now reported at… [+873 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Ottawacitizen.com"
+      },
+      "author": "Alison Mah",
+      "title": "Malhotra: People with disabilities must not be forgotten once the lockdown lifts",
+      "description": "As municipalities ponder creative ways to open up after the end of the COVID-19 lockdown and revitalize the battered economy, it is imperative city planning incorporate the needs and perspectives of people with disabilities. On every major social indicator, p…",
+      "url": "https://ottawacitizen.com/opinion/malhotra-and-johnson-people-with-disabilities-must-not-be-forgotten-once-the-lockdown-lifts",
+      "urlToImage": "https://postmediaottawacitizen2.files.wordpress.com/2020/05/gen-int-slug.jpg",
+      "publishedAt": "2020-05-25T15:30:53Z",
+      "content": "As municipalities ponder creative ways to open up after the end of the COVID-19 lockdown and revitalize the battered economy, it is imperative city planning incorporate the needs and perspectives of … [+938 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Commercialobserver.com"
+      },
+      "author": "gcornfieldcommercialobservercom",
+      "title": "Bill Allowing Commercial Tenants to Renegotiate, Break Lease Deals Advances in Calif.",
+      "description": "Commercial landlords and property owners across California may need to get a lot of Wite-Out ready. The state’s Senate Judiciary Committee advanced a bill on Friday that would allow small businesses — like cafes, restaurants and bars — to renegotiate and modi…",
+      "url": "https://commercialobserver.com/2020/05/california-senate-sb939-commercial-tenants-renegotiate-break-lease-coronavirus/",
+      "urlToImage": "https://commercialobserver.com/wp-content/uploads/sites/3/2020/05/Judiciary-Committee.jpg?quality=80&w=768",
+      "publishedAt": "2020-05-25T15:30:43Z",
+      "content": "Commercial landlords and property owners across California may need to get a lot of Wite-Out ready.The states Senate Judiciary Committee advanced a bill on Friday that would allow small businesses li… [+7099 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Thestar.com"
+      },
+      "author": "Menelaos Hadjicostis And Derek Gatopoulos - The Associated Press",
+      "title": "US faces Memorial Day like no other under virus restrictions",
+      "description": "ATHENS, Greece - Americans marked a Memorial Day like no other as the coronavirus pandemic upended traditional commemorations and forced communities t...",
+      "url": "https://www.thestar.com/news/world/europe/2020/05/25/us-faces-memorial-day-like-no-other-under-virus-restrictions.html",
+      "urlToImage": "https://images.thestar.com/5YxE-R7b-8cWFIpyOB9mapG4XWA=/1280x1024/smart/filters:cb(1590420976823)/https://www.thestar.com/content/dam/thestar/news/world/europe/2020/05/25/us-faces-memorial-day-like-no-other-under-virus-restrictions/NYKW117-524_2020_191619.jpg",
+      "publishedAt": "2020-05-25T15:30:34Z",
+      "content": "ATHENS, Greece - Americans marked a Memorial Day like no other as the coronavirus pandemic upended traditional commemorations and forced communities to honour the nations military dead with smaller, … [+7492 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Bostonherald.com"
+      },
+      "author": "Associated Press",
+      "title": "US faces Memorial Day like no other under virus restrictions",
+      "description": "ATHENS, Greece (AP) — Americans marked a Memorial Day like no other as the coronavirus pandemic upended traditional commemorations and forced communities to honor the nation's military dead with smaller, more subdued ceremonies like car convoys instead of par…",
+      "url": "https://www.bostonherald.com/2020/05/25/us-faces-memorial-day-like-no-other-under-virus-restrictions/",
+      "urlToImage": "https://www.bostonherald.com/wp-content/uploads/2020/05/Virus_Outbreak_California_67053-1.jpg?w=1024&h=739",
+      "publishedAt": "2020-05-25T15:30:29Z",
+      "content": "By MENELAOS HADJICOSTIS and DEREK GATOPOULOS\r\nATHENS, Greece (AP) — Americans marked a Memorial Day like no other as the coronavirus pandemic upended traditional commemorations and forced communities… [+7408 chars]"
+    },
+    {
+      "source": {
+        "id": "al-jazeera-english",
+        "name": "Al Jazeera English"
+      },
+      "author": "Al Jazeera",
+      "title": "Subdued Eid al-Fitr in India, Bangladesh amid coronavirus crisis",
+      "description": "Millions of Muslims in the two nations celebrate the end of the holy month of Ramadan under the shadow of the pandemic.",
+      "url": "https://www.aljazeera.com/news/2020/05/subdued-eid-al-fitr-india-bangladesh-coronavirus-crisis-200525141747164.html",
+      "urlToImage": "https://www.aljazeera.com/mritems/Images/2020/5/25/db2cdbd4212d4df1ae6fc1c97a163c80_18.jpg",
+      "publishedAt": "2020-05-25T15:30:07Z",
+      "content": "Muslims in India and Bangladesh celebrated a subdued Eid al-Fitr on Monday, marking the end of the holy month of Ramadan under the shadow of the coronavirus pandemic.\r\nThe three-day holiday that begi… [+3289 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Bostonglobe.com"
+      },
+      "author": "JONATHAN DREW",
+      "title": "Trump threatens to move RNC from North Carolina without assurances from governor",
+      "description": "President Donald Trump threatened Monday to pull the Republican National Convention out of North Carolina if the state’s Democratic governor doesn’t immediately sign off on allowing a full-capacity gathering in August despite the ongoing COVID-19 pandemic.",
+      "url": "https://www.bostonglobe.com/2020/05/25/nation/trump-threatens-move-rnc-north-carolina-without-assurances-governor/",
+      "urlToImage": "https://bostonglobe-prod.cdn.arcpublishing.com/resizer/mQFmXE71icUxYAE8pt4ghZFuIlg=/506x0/cloudfront-us-east-1.images.arcpublishing.com/bostonglobe/R2M6L5XQBRVATVQFTCL2HC7OUM.jpg",
+      "publishedAt": "2020-05-25T15:30:05Z",
+      "content": "On Friday, Governor Roy Cooper moved the state into a second phase of gradual reopening by loosening restrictions on hair salons, barbers, and restaurants. But he said the state must continue to clos… [+3195 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Hothardware.com"
+      },
+      "author": "Paul Lilly",
+      "title": "Star Citizen Goes Free To Play Through June 2 To Chase COVID-19 Blues Away",
+      "description": "Wondering what all the fuss is about with Star Citizen, a game that raised more than $280 million between the RSI website ($282,544,579) and Kickstarter ($2,134,347)? Well, now is your chance to find out, for free. Cloud Imperium Games is making the game avai…",
+      "url": "https://hothardware.com/news/star-citizen-free-play-through-june-1#id",
+      "urlToImage": "https://images.hothardware.com/contentimages/newsitem/51740/content/small_star_citizen.jpg",
+      "publishedAt": "2020-05-25T15:30:00Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+      },
+      "author": "Megan Hernbroth",
+      "title": "Brex and Zendesk crunched their customer data and created a presentation to help startups jolted by crashing sales. Here's what they learned.",
+      "description": "<ul>\n<li>Brex, the fintech startup that sells primarily to other startups, just shared its framework for handling customer support during the economic crisis.</li>\n<li>Many startups have been advised by investors and advisors to cut costs and extend their run…",
+      "url": "https://www.businessinsider.com/see-brex-zendesk-customer-support-service-downturn-startups-2020-5",
+      "urlToImage": "https://i.insider.com/5ec81bf14dca68793039cfc3?width=1200&format=jpeg",
+      "publishedAt": "2020-05-25T15:30:00Z",
+      "content": "Fintech startup Brex has advice for other startups struggling through the economic crisis: It may be difficult to sell your wares to new customers right now, but there are things you can do to get mo… [+1915 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Prnewswire.com"
+      },
+      "author": null,
+      "title": "A TBRC Report Suggests That There is Growing Demand for Biodegradable and Reusable Surgical Masks",
+      "description": "LONDON, May 25, 2020 /PRNewswire/ -- Surgical masks manufacturing companies are increasingly investing to make surgical masks biodegradable and reduce plastic pollution. With heavy use of surgical masks globally due to the Covid-19 pandemic, companies and con…",
+      "url": "https://www.prnewswire.com/news-releases/a-tbrc-report-suggests-that-there-is-growing-demand-for-biodegradable-and-reusable-surgical-masks-301064708.html",
+      "urlToImage": "https://mma.prnewswire.com/media/947575/The_Business_Research_Company_Logo.jpg?p=facebook",
+      "publishedAt": "2020-05-25T15:30:00Z",
+      "content": "LONDON, May 25, 2020 /PRNewswire/ --  Surgical masks manufacturing companies are increasingly investing to make surgical masks biodegradable and reduce plastic pollution. With heavy use of surgical m… [+6033 chars]"
+    },
+    {
+      "source": {
+        "id": "the-hindu",
+        "name": "The Hindu"
+      },
+      "author": "Special Correspondent",
+      "title": "Coronavirus | Punjab sees 21 fresh COVID-19 cases",
+      "description": "16 of them are reported from Amritsar and Jalandhar districts.",
+      "url": "https://www.thehindu.com/news/national/other-states/coronavirus-punjab-sees-21-fresh-covid-19-cases/article31673201.ece",
+      "urlToImage": "https://www.thehindu.com/news/national/other-states/63288p/article31673200.ece/ALTERNATES/LANDSCAPE_615/25IN-VIRUS",
+      "publishedAt": "2020-05-25T15:29:42Z",
+      "content": "Punjab recorded 21 coronavirus (COVID-19) cases on Monday taking the tally to 2,081, according to an official statement.\r\nThe Health Department said the major chunk of them, 10 and 6, were reported f… [+633 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Vanguardngr.com"
+      },
+      "author": "Emmanuel Okogba",
+      "title": "POST COVID-19: Relocate dry dock to open up economy in N’Delta – PANDEF, UNDEDSS",
+      "description": "By Dapo Akinrefon THE Pan Niger Delta Forum, PANDEF and the United Niger Delta Energy Development Security Strategy, UNDEDSS, Monday, restated calls for the Federal Government to relocate the Mega Dry Dock from Lagos waters, where it had been lying unused, to…",
+      "url": "https://www.vanguardngr.com/2020/05/post-covid-19-relocate-dry-dock-to-open-up-economy-in-ndelta-pandef-undedss/",
+      "urlToImage": "https://i0.wp.com/www.vanguardngr.com/wp-content/uploads/2020/05/Clark.jpg?fit=640%2C640&ssl=1",
+      "publishedAt": "2020-05-25T15:29:14Z",
+      "content": "Chief Edwin Clark\r\nBy Dapo Akinrefon\r\nTHE Pan Niger Delta Forum, PANDEF and the United Niger Delta Energy Development Security Strategy, UNDEDSS, Monday, restated calls for the Federal Government to … [+2812 chars]"
+    },
+    {
+      "source": {
+        "id": "cbc-news",
+        "name": "CBC News"
+      },
+      "author": "The Canadian Press",
+      "title": "Cirque du Soleil founder wants to buy back the company",
+      "description": "Cirque du Soleil founder Guy Laliberte says he wants to buy back the internationally celebrated circus company he created more than 35 years ago.",
+      "url": "https://www.cbc.ca/news/business/cirque-du-soleil-1.5583346",
+      "urlToImage": "https://i.cbc.ca/1.3042572.1429642273!/cpImage/httpImage/image.jpg_gen/derivatives/16x9_620/guy-laliberte.jpg",
+      "publishedAt": "2020-05-25T15:29:00Z",
+      "content": "Cirque du soleil founder Guy Laliberte says he wants to buy back the internationally celebrated circus company he created more than 35 years ago.\r\nLaliberte, who sold his remaining shares in the fame… [+1579 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Slashdot.org"
+      },
+      "author": "msmash",
+      "title": "Twitter Struggles To Label Misleading COVID-19 Tweets",
+      "description": "Automated technology that Twitter began using this month to label tweets containing coronavirus misinformation is making mistakes, raising concerns about the company's reliance on artificial intelligence to review content. From a report: On May 11, Twitter st…",
+      "url": "https://slashdot.org/story/20/05/25/1529224/twitter-struggles-to-label-misleading-covid-19-tweets",
+      "urlToImage": "https://a.fsdn.com/sd/topics/twitter_64.png",
+      "publishedAt": "2020-05-25T15:29:00Z",
+      "content": "\"Those who will be able to conquer software will be able to conquer the\r\nworld.\"\r\n-- Tadahiro Sekimoto, president, NEC Corp."
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Tribune.com.pk"
+      },
+      "author": "​ News Desk, AFP , ​ Our Correspondent, Reuters , Tufail Ahmed, Aftab Khan, AFP , AFP , AFP , AFP",
+      "title": "Govt may reimpose lockdown after Eid if situation gets worse: PM’s aide",
+      "description": "People are under the wrong impression that prevalence of disease is reducing, says Dr Zafar Mirza\nThe post Govt may reimpose lockdown after Eid if situation gets worse: PM’s aide appeared first on The Express Tribune.",
+      "url": "https://tribune.com.pk/story/2228627/1-govt-may-reimpose-lockdown-eid-situation-gets-worse-pms-aide/",
+      "urlToImage": "https://c.tribune.com.pk/2020/05/2228627-drzafarmirzapid-1590417545-946-640x480.jpg",
+      "publishedAt": "2020-05-25T15:28:26Z",
+      "content": "Special Assistant on Health Dr Zafar Mirza says people are under the wrong impression that prevalence of disease is reducing. PHOTO: PID/FILE \r\nSpecial Assistant to the Prime Minister on Health Dr Za… [+2086 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Kaya Yurieff, CNN Business",
+      "title": "Airbnb hosts are planning to sell off their properties because of the pandemic",
+      "description": "For Amy Offield, it was always a dream to run an Airbnb vacation rental in Galveston, Texas. Then the pandemic hit.",
+      "url": "https://www.cnn.com/2020/05/25/tech/airbnb-hosts/index.html",
+      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/200522170039-galveston-airbnb-super-tease.jpg",
+      "publishedAt": "2020-05-25T15:28:05Z",
+      "content": "(CNN Business)Amy Offield always dreamed of running a vacation rental in Galveston, Texas. Five years ago, she and her husband Chris got their wish and bought a house there minutes away from the beac… [+5215 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Iol.co.za"
+      },
+      "author": "IOL Reporter",
+      "title": "Liquor Traders Associations call for taverns to serve as alcohol collection points",
+      "description": "A consortium of Liquor Trader Associations, made up of associations of township-based taverns and shebeens representing over 50 000 members countrywide, is recommending that township taverns be permitted to operate as sanitary, off-site liquor sales points.",
+      "url": "https://www.iol.co.za/news/south-africa/liquor-traders-associations-call-for-taverns-to-serve-as-alcohol-collection-points-48491067",
+      "urlToImage": "https://image.iol.co.za/image/1/process/612x366?source=https://cdn.africannewsagency.com/public/ana/media/web/photoimages_new/2019/09/21/019b5a64a1c45eb82e005157e135b14c.jpg&operation=CROP&offset=0x32&resize=612x344",
+      "publishedAt": "2020-05-25T15:28:00Z",
+      "content": "By IOL Reporter10m ago\r\nDurban - Following the announcement by President Cyril Ramaphosa that alcohol will be sold under Level 3, a consortium of Liquor Trader Associations, made up of associations o… [+4970 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Today.com"
+      },
+      "author": "Lindsay Lowe",
+      "title": "Is it safe to try on clothes at a store? What you need to know",
+      "description": "As clothing stores begin to slowly reopen around the country, major retailers including Nordstrom and Macy's are releasing new fitting room guidelines.",
+      "url": "https://www.today.com/style/it-safe-try-clothes-store-fitting-room-guidelines-nordstrom-more-t182406",
+      "urlToImage": "https://media4.s-nbcnews.com/j/newscms/2020_22/1572716/nordstrom-kb-main-200525_09e95a63778a24f87f9cd947c85eaf6a.social_share_1200x630_center.jpg",
+      "publishedAt": "2020-05-25T15:28:00Z",
+      "content": "When it comes to clothes shopping, nothing can replace the in-person experience of trying on an item in the changing room. But are fitting rooms safe in the midst of the COVID-19 pandemic?\r\nSome majo… [+2613 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Huffpost.com"
+      },
+      "author": "Michael Hobbes",
+      "title": "As The Coronavirus Tore Through Seattle, These Sex Workers Built a Hand Sanitizer Factory",
+      "description": "On the streets, hand sanitizer is as important as condoms. So two sex workers and a vape-juice entrepreneur hatched a plan to produce gallons of it.",
+      "url": "https://www.huffpost.com/entry/seattle-coronavirus-sex-workers-hand-sanitizer-factory_n_5ec82d1fc5b6423c5ca9a78b",
+      "urlToImage": "https://img.huffingtonpost.com/asset/5ec83ac7300000ea1f15684f.jpeg?cache=fWNB6WX08y&ops=1200_630",
+      "publishedAt": "2020-05-25T15:27:06Z",
+      "content": "SEATTLE In March, the coronavirus pandemic was starting to unfold, and the Green Light Project, a nonprofit that provides cash and sanitation products to low-income sex workers, was running short on … [+10195 chars]"
+    },
+    {
+      "source": {
+        "id": "newsweek",
+        "name": "Newsweek"
+      },
+      "author": "Jason Lemon",
+      "title": "Japan Ends Coronavirus Emergency With 850 Deaths and No Lockdown",
+      "description": "\"In just over a month and a half, we almost brought (the infection) situation under control,\" Prime Minister Shinzo Abe said.",
+      "url": "https://www.newsweek.com/japan-ends-coronavirus-emergency-850-deaths-no-lockdown-1506336",
+      "urlToImage": "https://d.newsweek.com/en/full/1593518/japan-coronavirus.jpg",
+      "publishedAt": "2020-05-25T15:26:39Z",
+      "content": "Japan's Prime Minister Shinzo Abe has announced the end of his state of emergency declaration for the novel coronavirus pandemic, with just 851 deaths reported and without ever implementing a lockdow… [+2599 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Vanityfair.com"
+      },
+      "author": "Jordan Hoffman",
+      "title": "This Year's Venice Film Festival Is Still A Go",
+      "description": "The oldest film festival, which kicks off awards season in early September, maintains its red carpet readiness.",
+      "url": "https://www.vanityfair.com/hollywood/2020/05/this-years-venice-film-festival-is-still-a-go",
+      "urlToImage": "https://media.vanityfair.com/photos/5ecbd130b81b18cef540f0de/16:9/w_1280,c_limit/venice-film-festival.jpg",
+      "publishedAt": "2020-05-25T15:26:35Z",
+      "content": "Lo spettacolo deve continuare!\r\nThe Venice International Film Festival intends to stick with its September 2nd launch date, according toLuca Zaia, president of the Veneto region of Italy. It is in Ve… [+2572 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Thestar.com.my"
+      },
+      "author": "The Star Online",
+      "title": "Covid-19: MMA calls for extra preventive measures, testing of foreign workers",
+      "description": "KUALA LUMPUR (Bernama): Extra preventive measures should be taken to stop the spread of Covid-19 among the workforce, especially foreign workers, says the Malaysian Medical Association (MMA).",
+      "url": "https://www.thestar.com.my/news/nation/2020/05/25/covid-19-mma-calls-for-extra-preventive-measures-testing-of-foreign-workers",
+      "urlToImage": "https://apicms.thestar.com.my/uploads/images/2020/05/25/695247.jpg",
+      "publishedAt": "2020-05-25T15:26:00Z",
+      "content": "KUALA LUMPUR (Bernama): Extra preventive measures should be taken to stop the spread of Covid-19 among the workforce, especially foreign workers, says the Malaysian Medical Association (MMA).\r\nIts pr… [+1360 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Thestar.com.my"
+      },
+      "author": "The Star Online",
+      "title": "Italians strongly backed coronavirus lockdown - stastistics bureau survey",
+      "description": "ROME (Reuters) - Italians were strongly supportive of their government-imposed lockdown to curb one of the world's worst coronavirus outbreaks, according to a survey published on Monday by national statistics bureau ISTAT.",
+      "url": "https://www.thestar.com.my/news/world/2020/05/25/italians-strongly-backed-coronavirus-lockdown---stastistics-bureau-survey",
+      "urlToImage": "https://apicms.thestar.com.my/uploads/images/2020/05/25/695246.JPG",
+      "publishedAt": "2020-05-25T15:26:00Z",
+      "content": "ROME (Reuters) - Italians were strongly supportive of their government-imposed lockdown to curb one of the world's worst coronavirus outbreaks, according to a survey published on Monday by national s… [+1884 chars]"
+    }
+  ]
+}

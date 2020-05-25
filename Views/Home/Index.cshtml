@@ -1,0 +1,92 @@
+﻿@model Assignment_EpiServer.Models.ApiData
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@{
+    var closed_case = @Model.Data["Global"]["TotalDeaths"] + @Model.Data["Global"]["TotalRecovered"];
+    var active_case = @Model.Data["Global"]["TotalConfirmed"] - closed_case;
+    active_case = active_case.ToString("#,##0");
+}
+
+<!-- Load css file (StyleBundle) declare in App_Start/BundleConfig -->
+@Styles.Render("~/Content/css-homepage")
+
+<!-- Global summary section -->
+<div class="container global-summary">
+    <!--Header-->
+    <h1>
+        <b>COVID-19 CORONAVIRUS PANDEMIC</b>
+    </h1>
+    <!--Total case global-->
+    Total Coronavirus Cases:<br />
+    <span class="maincounter-number global">
+        @Model.Data["Global"]["TotalConfirmed"].ToString("#,##0") <br />
+    </span>
+    <!--Total deaths global-->
+    Deaths:<br />
+    <span class="maincounter-number death">
+        @Model.Data["Global"]["TotalDeaths"].ToString("#,##0") <br />
+    </span>
+    <!--Total recovered global-->
+    Recovered:<br />
+    <span class="maincounter-number recovery">
+        @Model.Data["Global"]["TotalRecovered"].ToString("#,##0") <br />
+    </span>
+    <!--Active and Closed case-->
+    <div class="container">
+        <!-- Active cases-->
+        <div class="col-md-6">
+            <div class="panel panel-default">
+                <!-- Header -->
+                <div class="panel-heading" style="text-align: center">
+                    <span class="panel-title" style="font-size: 18px; font-weight: bold">
+                        ACTIVE CASES
+                    </span>
+                </div>
+                <!-- Content -->
+                <div class="panel-body contanier">
+                    <span class="number-bold">@active_case</span>
+                    <br/>Currently Infected Patients
+                </div>
+            </div>
+        </div>
+        <!-- Closed cases-->
+        <div class="col-md-6">
+            <div class="panel panel-default">
+                <!-- Header -->
+                <div class="panel-heading" style="text-align: center">
+                    <span class="panel-title" style="font-size: 18px; font-weight: bold">
+                        CLOSED CASES
+                    </span>
+                </div>
+                <!-- Content -->
+                <div class="panel-body contanier">
+                    <!-- Recovery -->
+                    <div class="col-md-6">
+                        <span class="recovery number-bold">@Model.Data["Global"]["TotalRecovered"].ToString("#,##0")</span>
+                        <br/>Recovered / Discharged
+                    </div>
+                    <!-- Death -->
+                    <div class="col-md-6">
+                        <span class="death number-bold">@Model.Data["Global"]["TotalDeaths"].ToString("#,##0")</span>
+                        <br/>Deaths
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Summary section-->
+    <div class="container">
+        <p>The coronavirus COVID-19 is affecting <b>@Model.Data["Countries"].Length</b> countries and territories around the world.</p>
+        <p>. The list of countries and territories and their continental regional classification is based on the <a href="https://unstats.un.org/unsd/methodology/m49/">United Nations Geoscheme</a>.</p>
+        @{
+            DateTime day = DateTime.Parse(@Model.Data["Date"],
+                null,
+                System.Globalization.DateTimeStyles.RoundtripKind);
+        }
+        <p>Last updated data at <b>@day.Day/@day.Month/@day.Year @day.Hour:@day.Minute.</b></p>
+    </div>
+</div>

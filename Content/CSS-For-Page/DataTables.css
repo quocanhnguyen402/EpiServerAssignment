@@ -1,0 +1,23 @@
+﻿.dataTables_filter {
+    float: right !important;
+}
+
+.pagination {
+    margin: 0px !important;
+    float: right;
+}
+
+.table-red-text {
+    color: red;
+    font-weight: bold;
+}
+
+.table-blue-text {
+    color: blue;
+    font-weight: bold;
+}
+
+.table-green-text {
+    color: green;
+    font-weight: bold;
+}

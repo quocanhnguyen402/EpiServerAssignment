@@ -1,0 +1,87 @@
+﻿@model Assignment_EpiServer.Models.ApiData
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@Styles.Render("~/Content/css-latest-news")
+<br />
+<br />
+<div class="container">
+    @{
+        for (int i = 0; i < @Model.Data["articles"].Length - 3; i = i +3)
+        {
+            var article_1 = @Model.Data["articles"][i];
+            var article_2 = @Model.Data["articles"][i+1];
+            var article_3 = @Model.Data["articles"][i+2];
+            <div class="row">
+                <!-- Card 1-->
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="container source">
+                            <span><b>@article_1["source"]["name"]</b></span>
+                        </div>
+                        <a href="@article_1["url"]" target="_blank">
+                            <img src="@article_1["urlToImage"]" alt="Avatar" style="width: 100%">
+                        </a>
+                        <div class="container title-div">
+                            <a href="@article_1["url"]" target="_blank" style="text-decoration: none; color: #464646">
+                                <h3><b>@article_1["title"]</b></h3>
+                            </a>
+                        </div>
+                        <div class="container content-div">
+                            <p>@article_1["content"]</p>
+                            <a target="_blank" href="@article_1["url"]">Read the article &gt;</a>
+                        </div>
+                        <br />
+                    </div>
+                </div>
+                <!-- Card 2-->
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="container source">
+                            <span><b>@article_2["source"]["name"]</b></span>
+                        </div>
+                        <a href="@article_2["url"]" target="_blank">
+                            <img src="@article_2["urlToImage"]" alt="Avatar" style="width: 100%">
+                        </a>
+                        <div class="container title-div">
+                            <a href="@article_2["url"]" target="_blank" style="text-decoration: none; color: #464646">
+                                <h3><b>@article_2["title"]</b></h3>
+                            </a>
+                        </div>
+                        <div class="container content-div">
+                            <p>@article_2["content"]</p>
+                            <a target="_blank" href="@article_2["url"]">Read the article &gt;</a>
+                        </div>
+                        <br />
+                    </div>
+                </div>
+                <!-- Card 3-->
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="container source">
+                            <span><b>@article_3["source"]["name"]</b></span>
+                        </div>
+                        <a href="@article_3["url"]" target="_blank">
+                            <img src="@article_3["urlToImage"]" alt="Avatar" style="width: 100%">
+                        </a>
+                        <div class="container title-div">
+                            <a href="@article_3["url"]" target="_blank" style="text-decoration: none; color: #464646">
+                                <h3><b>@article_3["title"]</b></h3>
+                            </a>
+                        </div>
+                        <div class="container content-div">
+                            <p>@article_3["content"]</p>
+                            <a target="_blank" href="@article_3["url"]">Read the article &gt;</a>
+                        </div>
+                        <br />
+                    </div>
+                </div>
+                <!-- End card 3-->
+            </div>
+            <br/><br/>
+        }
+    }
+    </div>
+

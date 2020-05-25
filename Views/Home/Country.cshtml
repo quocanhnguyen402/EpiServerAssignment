@@ -1,0 +1,274 @@
+﻿@model Assignment_EpiServer.Models.ApiData
+
+@{
+    ViewBag.Title = "Country";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+    var country_code = ViewBag.CountryCode;
+    var last_index = @Model.Data.Length - 1;
+    var total_cases = 0;
+    var today_new_cases = 0;
+    var total_death = 0;
+    var today_new_death = 0;
+}
+
+@Styles.Render("~/Content/css-homepage")
+@Styles.Render("~/Content/css-dataTable")
+
+<!-- Global summary section -->
+<div class="container global-summary">
+    <!--Header-->
+    <h1>
+        <img src="https://www.countryflags.io/@country_code/shiny/64.png">
+        <b>@Model.Data[@last_index]["Country"]</b>
+    </h1>
+    <div class="col-lg-3">
+        <!--Total deaths global-->
+        Deaths:<br />
+        <span class="maincounter-number death">
+            @Model.Data[@last_index]["Deaths"].ToString("#,##0") <br />
+        </span>
+    </div>
+    <div class="col-lg-3">
+        <!--Total case-->
+        Total Cases:<br />
+        <span class="maincounter-number global">
+            @Model.Data[@last_index]["Confirmed"].ToString("#,##0") <br />
+        </span>
+    </div>
+    <div class="col-lg-3">
+        <!--Total recovered global-->
+        Active cases:<br />
+        <span class="maincounter-number active-number">
+            @Model.Data[@last_index]["Active"].ToString("#,##0") <br />
+        </span>
+    </div>
+    <div class="col-lg-3">
+        <!--Total recovered global-->
+        Recovered:<br />
+        <span class="maincounter-number recovery">
+            @Model.Data[@last_index]["Recovered"].ToString("#,##0") <br />
+        </span>
+    </div>
+    <div class="col-lg-6">
+        <!--First confirmed cases:-->
+        First confirmed cases:<br />
+        @{
+            foreach (var item in Model.Data)
+            {
+                if (@item["Confirmed"] != 0)
+                {
+                    DateTime first_day = DateTime.Parse(@item["Date"],
+                        null,
+                        System.Globalization.DateTimeStyles.RoundtripKind);
+                    <span class="maincounter-number first_day">@first_day.Day/@first_day.Month/@first_day.Year</span>
+                    break;
+                }
+            }
+        }
+    </div>
+    <div class="col-lg-6">
+        <!--First Death:-->
+        First death:<br />
+        @{
+            var have_death = 0;
+            foreach (var item in Model.Data)
+            {
+                if (@item["Deaths"] != 0)
+                {
+                    DateTime first_day = DateTime.Parse(@item["Date"],
+                        null,
+                        System.Globalization.DateTimeStyles.RoundtripKind);
+                    <span class="maincounter-number first_death">@first_day.Day/@first_day.Month/@first_day.Year</span>
+                    have_death = 1;
+                    break;
+                }
+            }
+            if (have_death == 0)
+            {
+                <span class="maincounter-number first_death">N/A</span>
+            }
+        }
+    </div>
+</div>
+<br />
+<div class="container">
+
+    <div style="text-align: center">
+        <ul class="nav nav-pills" style="display: inline-block;">
+            <li class="active"><a data-toggle="pill" href="#chart">CHART</a></li>
+            <li><a data-toggle="pill" href="#info">INFO</a></li>
+        </ul>
+    </div>
+
+    <div class="tab-content">
+        <div id="chart" class="tab-pane fade in active">
+            <!--Line char section-->
+            <div class="container global-summary">
+                <div class="col-lg-6">
+                    <!--Title-->
+                    <h1>
+                        Total Cases
+                    </h1>
+                    <!-- Total chart-->
+                    <div id="total_chart" style="width: 100%; height: 300px; display: inline-block;"></div>
+                </div>
+                <div class="col-lg-6">
+                    <!--Title-->
+                    <h1>
+                        Daily New Cases
+                    </h1>
+                    <!-- Active chart-->
+                    <div id="new_cases_chart" style="width: 100%; height: 300px; display: inline-block;"></div>
+                </div>
+                <div class="col-lg-6">
+                    <!--Title-->
+                    <h1>
+                        Total Deaths
+                    </h1>
+                    <!-- Active chart-->
+                    <div id="total_death_chart" style="width: 100%; height: 300px; display: inline-block;"></div>
+                </div>
+                <div class="col-lg-6">
+                    <!--Title-->
+                    <h1>
+                        Daily New Deaths
+                    </h1>
+                    <!-- Total chart-->
+                    <div id="deaths_by_days_chart" style="width: 100%; height: 300px; display: inline-block;"></div>
+                </div>
+            </div>
+        </div>
+        <div id="info" class="tab-pane fade container global-summary">
+            <div class="col-lg-12">
+                <h2>Last 10 days reported cases and deaths</h2><br/>
+                <table class="table table-striped table-bordered"  style="text-align: left!important">
+                    <thead>
+                        <tr>
+                            <th>Day</th>
+                            <th>Total Cases</th>
+                            <th>New Cases</th>
+                            <th>Total Deaths</th>
+                            <th>New Deaths</th>
+                            <th>Total Recovered</th>
+                            <th>New Recovered</th>
+                            <th>Active case</th>
+                        </tr>
+                    </thead>
+                    <tbody id="ta">
+                    @{
+                        for (int i = 0; i < 10; i++)
+                        {
+                            var index = @last_index - i;
+                            var new_cases = @Model.Data[@index]["Confirmed"] - @Model.Data[@index - 1]["Confirmed"];
+                            var new_death = @Model.Data[@index]["Deaths"] - @Model.Data[@index - 1]["Deaths"];
+                            var new_recover = @Model.Data[@index]["Recovered"] - @Model.Data[@index - 1]["Recovered"];
+                            var active_case = @Model.Data[@index]["Confirmed"] - @Model.Data[@index - 1]["Deaths"] - @Model.Data[@index]["Recovered"];
+                            DateTime day = DateTime.Parse(@Model.Data[@index]["Date"],
+                                null,
+                                System.Globalization.DateTimeStyles.RoundtripKind);
+                            <tr>
+                                <td>@day.Day/@day.Month/@day.Year</td>
+                                <td>@Model.Data[@index]["Confirmed"].ToString("#,##0")</td>
+                                <td><span class="table-blue-text">@new_cases.ToString("#,##0")</span></td>
+                                <td>@Model.Data[@index]["Deaths"].ToString("#,##0")</td>
+                                <td><span class="table-red-text">@new_death.ToString("#,##0")</span></td>
+                                <td>@Model.Data[@index]["Recovered"].ToString("#,##0")</td>
+                                <td><span class="table-green-text">@new_recover.ToString("#,##0")</span></td>
+                                <td>@active_case.ToString("#,##0")</td>
+                            </tr>
+                        }
+                    }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section scripts
+{
+    @Scripts.Render("~/bundles/canvasjs")
+
+<script>
+        window.onload = function() {
+            $("#navbar").append("<li class='country_name'><a href='#'>@Model.Data[@last_index]["Country"].ToUpper()</a></li>");
+            var data_total = [];
+            var data_daily = [];
+
+            @foreach (var item in Model.Data)
+            {
+                if (item["Confirmed"] != 0)
+                {
+                    today_new_cases = item["Confirmed"] - total_cases;
+                    if (today_new_cases < 0)
+                    {
+                        today_new_cases = 0;
+                    }
+                    @:data_total.push({ x: new Date("@item["Date"]"), y: @item["Confirmed"] });
+                    @:data_daily.push({ x: new Date("@item["Date"]"), y: @today_new_cases });
+                    total_cases = item["Confirmed"];
+                }
+            }
+
+            var data_active = [];
+
+            @foreach (var item in Model.Data)
+            {
+                if (@item["Confirmed"] != 0)
+                {
+                    @:data_active.push({ x: new Date("@item["Date"]"), y: @item["Active"] });
+                }
+            }
+
+            var data_death_total = [];
+            var data_death_day = [];
+            @{
+                foreach (var item in Model.Data)
+                {
+                    if (@item["Deaths"] != 0)
+                    {
+                        today_new_death = item["Deaths"] - total_death;
+                        @:data_death_total.push({ x: new Date("@item["Date"]"), y: @item["Deaths"] });
+                        @:data_death_day.push({ x: new Date("@item["Date"]"), y: @today_new_death  });
+                        total_death = item["Deaths"];
+                    }
+
+                }
+            }
+
+            function chartFunc(id, data, type) {
+                var chart = new CanvasJS.Chart(id,
+                    {
+                        animationEnabled: true,
+                        title: {
+                            text: ""
+                        },
+
+                        axisX: {
+                            title: "",
+                            interval: 1,
+                            intervalType: "month",
+                        },
+                        axisY: {
+                            title: ""
+                        },
+                        data: [
+                            {
+                                color: "#83A7D0",
+                                type: type,
+                                dataPoints: data
+                            }
+                        ]
+                    });
+
+                chart.render();
+            }
+
+            chartFunc("total_chart", data_total, "line");
+            chartFunc("new_cases_chart", data_daily, "column");
+            chartFunc("deaths_by_days_chart", data_death_day, "column");
+            chartFunc("total_death_chart", data_death_total, "line");
+        }
+</script>
+}

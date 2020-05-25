@@ -1,0 +1,38 @@
+﻿.global-summary {
+    text-align: center;
+}
+
+.global {
+    color: #000000;
+    /*font-size: 90px!important;*/
+}
+
+.first_day {
+    color: slateblue
+}
+
+.first_death {
+    color: #5D4038
+}
+
+.recovery {
+    color: #8ACA2B
+}
+
+.death {
+    color: #696969
+}
+
+.active-number {
+    color: blue;
+}
+
+.number-bold {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.country_name {
+    font-weight: bold;
+    color: white!important;
+}
